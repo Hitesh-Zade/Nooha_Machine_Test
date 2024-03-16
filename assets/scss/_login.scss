@@ -1,0 +1,50 @@
+.login-container{
+    border-top: 10px solid $primary;
+    height: 100vh;
+    color: #333C31;
+    font-size: 14px;
+    input{
+        background-color: #CAD3C82E;
+        &:focus{
+        box-shadow: none;
+        border-color: $primary;
+       }
+    }
+    label{
+        color: #333C31;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    padding: 1.2rem 0.75rem;
+    }
+    .btn-signin{
+        background-color: #CF682F;
+        border-color: #CF682F;
+        text-transform: uppercase;
+        color: #fff;
+        height: 47px;
+        font-weight: 500;
+    }
+    .forgot-password{
+        color: #2C3A47;
+        text-decoration: none;
+    }
+    .social-icons{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        img{
+            margin-left: 20px;
+  width: 24px;
+  height: 24px;
+        }
+    }
+
+    .alert{
+        &.alert-danger{
+            background-color: #F6647F2E;
+            color: #D90202;
+        }
+    }
+}
